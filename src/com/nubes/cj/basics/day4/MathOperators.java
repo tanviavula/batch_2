@@ -22,6 +22,7 @@ public class MathOperators {
 		System.out.println("The mul is :"+mul);
 		System.out.println("The div is :"+div);
 		System.out.println("The mod is :"+mod);
+		sc.close();
 	
 	}
 }

@@ -21,5 +21,6 @@ public class BiggestOfThreeNumbers {
 				big = num3;
 			}
 			System.out.println("Biggest of"+num1+","+num2+","+num3+" is "+big);
+			sc.close();
 		}
 }

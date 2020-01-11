@@ -1,5 +1,4 @@
 package com.nubes.cj.basics.day5;
-
 import java.util.Scanner;
 
 public class NumberExample {
@@ -19,6 +18,6 @@ public class NumberExample {
 				num = -num * 2;
 			}
 			System.out.println(num);
-			
+			sc.close();
 		}
 }

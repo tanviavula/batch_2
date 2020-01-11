@@ -13,6 +13,7 @@ public class WhileExample {
 				System.out.println(i);
 				i++;
 			}
+			sc.close();
 
 	}
 }

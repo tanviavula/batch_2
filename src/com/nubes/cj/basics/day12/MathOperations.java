@@ -61,7 +61,7 @@ public class MathOperations {
 			return 1;
 		}
 		return num * factorial(num - 1);
-			
+	
 	}
 
 }

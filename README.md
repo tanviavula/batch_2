@@ -16,4 +16,11 @@ Quiz:
 [Quiz-3](http://jsltech.blogspot.com/2014/08/java-programming-interview-questions_31.html), 
 [Quiz-4](http://jsltech.blogspot.com/2014/08/java-programming-interview-questions_20.html),
 [Quiz-5](http://jsltech.blogspot.com/2014/08/java-programming-interview-questions_14.html)     
+
+
+Week - 3:
+[Assignment Questions] (http://jsltech.blogspot.com/2012/01/arrays-array-is-object-that-is-named.html)
+[Quiz-6] 
+
 -------------------------------------------------------------------------------------------------------------------------------------------
+

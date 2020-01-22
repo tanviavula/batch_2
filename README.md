@@ -19,7 +19,7 @@ Quiz:
 
 
 Week - 3:
-[Assignment Questions] (http://jsltech.blogspot.com/2012/01/arrays-array-is-object-that-is-named.html)
+[Assignment Questions](http://jsltech.blogspot.com/2012/01/arrays-array-is-object-that-is-named.html) 
 [Quiz-6] 
 
 -------------------------------------------------------------------------------------------------------------------------------------------

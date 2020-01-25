@@ -12,7 +12,7 @@ public class StringMethods {
 		}
 		// Print names which are starts with letter S or N
 		System.out.println("__________________________________________");
-		for (String name : names) {
+		for(String name : names) {
 			if (name.startsWith("S") || name.startsWith("N")) {
 				System.out.println(name);
 			}

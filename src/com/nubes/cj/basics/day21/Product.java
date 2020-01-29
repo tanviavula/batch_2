@@ -1,7 +1,7 @@
 package com.nubes.cj.basics.day21;
 
 public class Product {
-
+    
 	private int pid;
 	private String pname;
 	private String brand;

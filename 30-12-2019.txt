@@ -1,0 +1,623 @@
+Programming?
+
+
+Python
+
+C / C++
+
+Java -> Data Science, Android, Web Developer, Enterprise application developer
+
+------------------------------------------------------------------------------------------------------
+
+JavaScript
+
+
+JSE - Java Standard Edition  (Standalone)  (Core Java + JDBC)
+JEE - Java Enterprise Edition 
+JME - Java Micro Edition
+
+Java Programming language and Platform:
+
+Operating System:
+
+	- It is an interface between user and hardware of the computer
+
+		Windows, Linux, Mac
+
+Java - HAL (Hardware abstract layer)  ( Software based platform)
+
+Platform Independent:
+
+c, c++ , Java 
+
+------------------------------------------------------------
+#include<stdio.h>
+
+void main(){
+	print("Welcome to c world");
+}
+------------------------------------------------------------
+
+#include<stdio.h>
+
+void main(){
+	cout << "Welcome to c++ world";
+}
+
+---------------------------------------------------------------
+public class HelloWorld{
+	public static void maint(String args[]){
+		System.out.println("Welcome to Java world");
+	}
+}
+--------------------------------------------------------------
+
+Compilers: tubro c,turbo c++, gcc, javac
+
+windows: fact.obj, fact.exe
+linux : fact.sh
+
+javac => Intermediate code ( byte code )   .class 
+
+javac one.java => one.class (byte code) = JVM (Java Vitural Machine) 
+
+compiler => convert into what machine can understand (0, 1)
+
+- Procedure oriented
+- Object Oriented 
+- Funcational Programming
+
+
+
+https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
+
+
+Java software:
+
+JDK  -> Java Development Kit  (Developer)
+	compiler,debugger and other tools to develop application 
+
+JRE  -> Java Runtime Environment
+	to run application which developed using JDK 
+
+
+Java programms:
+
+1. File must saved with .java extension 
+2. javac ( to compile)
+3. java
+
+
+Installation of Java
+--------------------------------------------------------------------------------
+JAVA_HOME = C:\Program Files\Java\jdk1.8.0_231\
+path = C:\Program Files\Java\jdk1.8.0_231\bin\
+classpath = C:\Program Files\Java\jdk1.8.0_231\lib\
+
+HelloWorld.java
+
+javac HelloWorld.java => HelloWorld.class  ( Byte code ) => java HelloWorld
+
+
+Variables:
+
+The name given to the memory location is called variable
+
+Comments:
+
+// Single 
+/* ---------  */ Multiline 
+/** ----------- */
+
+
+/* Write program to find given number is even or odd */
+
+ +  = a + b; 
+ -  = a - b;
+ *  = a * b;
+ /  = a / b;
+ %  = a % b;
+
+------------------------------------------------------------------------------------------------------
+
+1. What is the extension of "Java Programm"? .java
+2. What is the command is used to compile java program ? javac
+3. What is the command to execute java program ? java
+4. When you compile java program it generate .class file, 
+	what code does your .class contains ?  (byte code)
+5. JDK stands ? 
+	Java Development Kit
+6. What JDK contains?
+   It contains compiler,debuggers and tools to develop the application
+7. What is JRE?
+   Java Runtime Environment, which contains tools,libraries to run the java application
+8. What is main method signature in java?
+	public static void main(String args[]){}
+9. How many primitive data types are there in java ? 8
+10. What are the primitive data types?
+	byte
+	short
+	int
+	char
+	float
+	double
+	long
+	boolean
+11. What is variable?
+	Name given to the memory location is called variable
+
+12. How many types of comments in java available?
+	3 
+	//
+	/* */
+	/** */
+13. How do you generate documentation in java ?
+	javadoc *.java
+
+14. Digramatic represention of the logic is called?
+	flow chart
+
+
+
+java Hello
+
+
+
+
+------------------------------------------------------------------------------------------
+
+
+IDE (Integrated Development Environment)
+
+eclipse.org/downloads/download.php?file=/oomph/epp/2019-12/R/eclipse-inst-win64.exe
+
+
+-------------------------------------------------------------------------------------------
+
+variable   
+	int age = 36
+	System.out.println(age);
+	
+	int sum_of_ages;
+	int person_3_age;
+	int person3age;
+	int 3personage; Not valid  ( Letter, _ , $)
+
+	int boolean ; Not valid 
+
+
+method
+	public int sum(int a, int b){
+
+	}
+class
+	class Employee{
+
+	}
+interface
+	interface PrintService{
+
+	}
+
+------------------------------------------------------------------------------------------------
+
+short
+byte
+char
+int
+float
+long
+double
+boolean
+
+--------------------------------------
+class
+interface
+implements
+extends
+--------------------------------------
+if
+else
+while
+switch
+break
+case
+return
+continue
+-----------------------------------
+try
+catch
+throw
+throws
+finally
+-------------
+private
+public
+protected
+
+--------------------------------------------
+
+Data types:
+
+Primitive: short, byte, int , char, boolean, long, float, double
+Reference: Arrays, String, Employee
+
+
+
+---------------------------------------------------------------------------------------------------
+Binary = +, -, *, /, %
+Unaray = ++, -- 
+
+----------------------------------------------------------------------------------------------------
+Relational Operator
+
+<
+<=
+>
+>=
+==
+!=
+
+
+a < b
+
+----------------------------------------------------------------------------------------------------
+
+sequential order:
+
+int a = 10;
+int b = 20;
+int c = 30;
+sum = a + b + c;
+
+
+Conditional  => if, else, if-else 
+Iterative   => for, while, do-while
+Selction statements => switch
+
+------------------------------------------------------------------------------------------------------
+Conditional Statements :
+
+if
+
+if-else
+
+if-else-if
+
+
+------------------------------------------------------------------------------------------------------
+
+Accept a number from the user then print the number ( if it negative +)
+
+if(expression){
+    // Code
+}
+
+
+Accept bill amount from the user, if amount > 1000 give a discount of 10%
+
+------------------------------------------------------------------------------------------------------
+
+Accept salary from user if salary amount is <= 15000 give bonus 20%
+
+-----------------------------------------------------------------------------------------------------
+
+if - else
+
+if(expression){
+  //Code
+}else{
+  // Code
+}
+
+
+-----------------------------------------------------------------------------------------------------
+
+Accept number from the user and check wheather it is even or odd
+
+num % 2 == 0
+
+
+-----------------------------------------------------------------------------------------------------
+
+>= 55  (100)
+   
+pass
+fail
+-----------------------------------------------------------------------------------------------------
+
+if-else-if
+
+num1 = ? 
+num2 = ?
+num3 = ?
+
+-----------------------------------------------------------------------------------------------------
+Score and grading:
+
+<35 "Fail"
+35 - 50 "C"
+50 - 70 "B"
+70 - 90 "A"
+90 - 100 "A+"	
+
+------------------------------------------------------------------------------------------------------
+Electric Bill
+
+0-200 = 5
+200-500 8
+> 5000 10
+
+------------------------------------------------------------------------------------------------------
+< 500000
+800000 10
+>1000000 20
+-----------------------------------------------------------------------------------------------------
+
+
+
+Nested if :
+
+if(expression){
+	if(){
+	}
+}
+
+num?  + <100 2time else 3 times
+      - <100 convert positive 2 time
+
+
+-50
+
+
+100
+
+
+----------------------------------------------------------------------------------------------------
+Iterative satements:
+
+Entery control -> for, while
+Exit control    -> do-while
+	
+---------------------------------------------------------------------------------------------------
+
+for(initialization;condition;updation){
+	---------------
+	----------------
+}
+
+	while(expression){
+		-----------
+		-----------
+	}
+
+
+	for(int i = 1; i <= N; i++){
+
+		System.out.println(i);
+	}
+
+	int i = 1;
+	while(i <= N){
+
+		System.out.prinln(i);
+		i++;
+	}
+
+
+------------------------------------------------------------------------------------------------------
+
+	int num = 1234
+	int rnum = 4321
+
+------------------------------------------------------------------------------------------------------153
+
+1 ^ 3 + 5 ^ 3 + 3 ^ 3
+
+1 + 125 + 27 = 153
+
+do{
+
+}while(condition);
+
+---------------------------------------------------------------------------------------------------
+
+Selection Statments:
+
+if, if - else , if-else-if
+switch
+
+----------------------------------
+	byte, short, int, String, enum : (float, double)
+	switch(exp|var|value){
+		
+		case value:------;
+			break;
+		default:-----------
+			
+	}
+
+------------------------------------------------------------------------------------------------------
+	PUC
+		BE/B.Tech
+			CS
+			IS
+			EC
+			EEE
+       ATM:
+		
+
+--------------------------------------------------------------------------------------------------
+functions:
+
+	Collection group of statements which is going to perform a specific task
+
+	
+	access_specifier <modifier> returntype methodname(arg1,arg2){
+		---------------
+		return type;
+	}
+
+
+	int sumOfNnumbers(int n){
+		
+	}
+
+Function/Method (Java)
+
+1. With return type with arguments
+
+	int sum(int a, int b){
+		return a + b;	
+	}
+
+2. With return type with out arguments
+
+	int getCurrentMonth(){
+		// Logic
+	}
+
+3. With out return type with arguments
+
+	void printTable(int N){
+		//Logic
+	}
+
+4. No retrun type no arguments
+	
+	void showTime(){
+		// Logic
+	}
+
+
+
+
+
+String:
+  
+	java.lang
+	Immutable object
+
+	String name = "Core Java";
+	String name = new String("Core Java");
+	
+
+
+	== Operator compares references 
+	equals() method compares object content
+
+Format code : ctrl + shift +  f
+To delete line : ctrl + d
+move selected : ALT + up-arrow	
+comments:
+
+------------------------------------------------------------------------------------------------------
+data = "Lakshman,Krishna,Nareen,Basha,Suresh,Mahesh,Jayesh,Ramesh";
+-------------------------------------------------------------------------------------------------
+
+
+String: Immutable
+
+Muttable:
+	StringBuffer  
+	StringBuilder 1.5 
+
+Every class super class Object: java.lang
+
+
+		class1  extends 
+
+			m1()
+			m2()
+			equals()
+			toString()
+			hashCode()
+			clone()
+		class2 extends class1
+			m3()
+
+		equals(){
+
+
+
+		}
+
+<html>
+<head>
+<title>Welcome to HTML</title>
+<head>
+<body>
+ 	<h1>This is my first HTML example</h1>
+</body>
+</html>
+	
+
+
+
+-----------------------------------------------------------------------------------------------------
+
+public 
+private 
+protected
+(default)
+
+private > (default) > protected > public 
+
+IS-A     => I am an Employee 
+HAS-A    => I have Bike
+
+                           Shape
+		
+		Circle
+
+Employee
+
+    Project
+    Car
+
+
+Constructor:
+
+Overloading:
+
+No of params
+Order of params
+Type of the params
+
+-----------------------------------------------------------------------------------------------------
+this  => Local, Instance variable if declared with same name then instance variable are going hide in the local scope to access instance variable we use "this"
+
+this() => To call another constructor of the same class with different parameters we use "this()" 
+
+Note: this();
+
+------------------------------------------------------------------------------------------------------
+Method:
+
+name can be anythig:                            Name must be same as class
+It must have return type                        There is no return type
+Called any number of times	                Only once for the object
+User can call method any number of time         Only JVM will invoke constructor by using new operator
+
+
+1001-Think Pad-Lenovo-45000,1002-Studio-Dell-55000,1003-Air book-Apple-65000,1004-Next Gen-Dell-50
+
+ ["1001-Think Pad-Lenovo-45000","1002-Studio-Dell-55000","1003-Air book-Apple-65000","1004-Next Gen-Dell-50"]
+
+arr = ["1001","Think Pad","Lenovo","45000"]
+arr[0]
+--------------------------------------------------------------------------------------
+
+static - Variables, Method, Blocks, imports  
+final  - Variables, Method, Class
+------------------
+
+Instance
+Class
+Local 
+
+
+------------------------------
+
+IIB => Instance Initializer Block
+

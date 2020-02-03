@@ -621,3 +621,73 @@ Local
 
 IIB => Instance Initializer Block
 
+
+Object Oriented Programming:
+
+int regno[] = new int[100];
+String names[] = new String[100];
+int score[] = new int[100]
+
+regno[1]= 1001
+names[1] = "Nareen"
+score[1] = 9
+
+
+regno[2]= 1002
+names[2] = "Krish"
+score[2] = 8
+
+Student{
+
+	regno;
+	name;
+	score;
+	
+}
+
+Student s1 = new Student(1001,"Nareen",9)
+
+Class:
+
+Blue print or template which contains common attributes and methods 
+
+
+Object:
+
+An instance of the class is called Object.
+
+
+class Book{
+
+	String isbn;
+	String title;
+	String author;
+	int pageCount;
+	String publisher;
+	
+}
+
+Constructor:
+
+	1. Special method
+	2. Name of the constructor must be same as class name
+	3. It will not have any return type ( even void)
+	4. It can not be called explicitly by the programmer
+	5. It is called by JVM by using new operator
+	6. In the absence of user defined constructor java compiler provides the 
+	   default constructor ( in the .class file)
+	7. The job of constructor is to initialize instance variable with the default values
+	8. It is called only once for the object creation
+	9. Class can have two or more constructors with different parameter list 
+	   this is called constructor overloading
+	10. Constructor overriding is not possible in Java.
+	11. It can throw any exceptions
+	
+	
+	
+
+
+
+
+
+

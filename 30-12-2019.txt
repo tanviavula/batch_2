@@ -683,7 +683,11 @@ Constructor:
 	10. Constructor overriding is not possible in Java.
 	11. It can throw any exceptions
 	
-	
+
+
+1. Number of parameters
+2. Order of parameters
+3. Type of parameters	
 	
 
 

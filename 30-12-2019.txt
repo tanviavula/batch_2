@@ -570,7 +570,7 @@ HAS-A    => I have Bike
 		
 		Circle
 
-Employee
+Employee extends Person
 
     Project
     Car
@@ -649,12 +649,14 @@ Student s1 = new Student(1001,"Nareen",9)
 
 Class:
 
-Blue print or template which contains common attributes and methods 
+Blue print or template which contains common fields and methods 
 
 
 Object:
 
 An instance of the class is called Object.
+
+
 
 
 class Book{
@@ -691,7 +693,34 @@ Constructor:
 	
 
 
+Object Oriented Programming:
 
+	Class :
+		Is blue print or a template which contains common fields and methods
+		
+	Object:
+		An instance of the class is called Object
+		
+	Abstraction:
+	   The process of hidding data and showing required features is called abstraction
+	   
+	Encapsulation:
+	   The process of wrapping the data is encapsulation 
+	   
+	Inheritence: 
+	   The process of creating a new class from the existing class is called 
+	   Inheritence
+	   
+	Polymorphism: 
+       Many forms, one method or one interface with different implementation is called polymorphism
+       
+       One method with different implementation is called polymorphism
+       1. Overloading
+       2. Overriding
+       
 
+       
+IS - A     =>Inheritence
+HAS - A    => having other class Object 
 
 

@@ -723,4 +723,58 @@ Object Oriented Programming:
 IS - A     =>Inheritence
 HAS - A    => having other class Object 
 
+Java Supports:
 
+Single Level
+Multi Level
+
+in the absence of extends keyword in the class declaration Java compiler will
+extends java.lang.Object
+
+
+-----------------------------------------------------------------------------------------------------------
+
+Overloading:
+
+Writing two or more method in the class with different parameter list is called overloading
+	1. Number of parameters
+	2. Order of parameters
+	3. Type of parameters	
+	
+	// Return type, Access Specifier, Exception 
+
+Overriding:
+
+	Changing the super class method implementation in the sub class is called overriding
+	
+	
+1. Overloading takes place in the same class
+2. Overriding takes place in the sub class
+	
+	
+1. Super class reference variable can hold sub class object
+2. Sub class reference variable can not hold super class object
+
+3.  By using super class reference variable we can access only super class methods and variable 
+
+
+private > default > protected > public 
+
+Rules :
+
+1. Access specifier should same or less restrictive  it should not be more restrictive 
+2. Return type must be same
+3. Parameter list must be same
+
+Note: We will discuss later
+4. Return can be co-varient 
+5. Excpetion should be same or without exception, but should not be parent excpetion 
+
+
+
+
+
+
+
+
+	

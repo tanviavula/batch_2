@@ -14,25 +14,29 @@ public class Manager {
 		Account[] accounts = new Account[] { acc1, acc2, acc3, acc4, acc5 };
 		Scanner sc = new Scanner(System.in);
 		while (true) {
-			System.out.println("1.Deposite 2. Withdraw 3. Balance 4. Exit");
-			int ch = sc.nextInt();
+
 			System.out.println("Enter the account number:");
 			int accno = sc.nextInt();
 
 			Account account = searchAccount(accno, accounts);
 			if (account != null) {
+				System.out.println("1.Deposite 2. Withdraw 3. Balance 4. Exit");
+				int ch = sc.nextInt();
 				switch (ch) {
 				case 1:
-					System.out.println("Enter the balance to deposite:");
+					System.out.println("Enter the amount to deposite:");
 					float amount = sc.nextFloat();
 					account.deposite(amount);
 					break;
 				case 2:
-					break;
+					System.out.println("Enter the amount to withdraw:");
+					float wamount = sc.nextFloat();
+					account.withdraw(wamount);
 				case 3:
 					account.showInfo();
 					break;
 				case 4:
+					sc.close();
 					System.exit(0);
 
 				default:
@@ -42,12 +46,21 @@ public class Manager {
 			} else {
 				System.out.println("Enter a valid account number:");
 			}
-		}
 
+		}
+		
 	}
 
+	
+
 	private static Account searchAccount(int accno, Account[] accounts) {
-		//Logic
-		return accounts[0];
+
+		for (Account acc : accounts) {
+			if (acc.accno == accno) {
+				return acc;
+			}
+		}
+
+		return null;
 	}
 }

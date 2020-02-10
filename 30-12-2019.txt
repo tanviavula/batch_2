@@ -768,7 +768,25 @@ Rules :
 
 Note: We will discuss later
 4. Return can be co-varient 
-5. Excpetion should be same or without exception, but should not be parent excpetion 
+5. Excpetion should be same or without exception, but should not be parent (super) excpetion 
+
+
+Type casting:
+
+Converting one data type to another valid data type is called typecasting:
+	1. Implicit  - Compiler 
+	
+		Upcasting > lower data type to heigher data type
+		int a = 10;
+		float b = a;
+		
+	2. Explicit  - Programmer
+	    Downcasting > Higher data type to lower data type :( There is chances of loosing data)
+	    
+	    float a = 10.5f
+	    int b = (int)a;
+	
+byte short char int float double long
 
 
 

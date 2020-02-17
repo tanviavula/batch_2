@@ -788,6 +788,36 @@ Converting one data type to another valid data type is called typecasting:
 	
 byte short char int float double long
 
+Primitive and Reference:
+
+byte
+short
+char
+int 
+long
+float
+double
+boolean
+
+Reference:
+
+String name = new String("Lakshman")
+Object obj = new Employee()
+int arr[] = new int[]{1,2,3,4}
+
+
+java.lang.Object => Root class for every java class
+
+Wrapper class:
+
+Boxing and un-boxing
+
+Converting Primitive to Reference - Boxing
+Reference to Primitive  - un-boxing
+
+== References 
+equals() => Compares the content of the object
+
 
 
 

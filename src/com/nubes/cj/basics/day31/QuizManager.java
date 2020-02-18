@@ -84,12 +84,14 @@ public class QuizManager {
 
 		for (int i = 0; i < quiz.getQuestions().length; i++) {
 			String ques = questions[i];
-			String qdata = ques.split("=")[0];
-			String option1 = ques.split("=")[1].split(",")[0];
-			String option2 = ques.split("=")[1].split(",")[1];
-			String option3 = ques.split("=")[1].split(",")[2];
-			String option4 = ques.split("=")[1].split(",")[3];
-			String answer = ques.split("=")[1].split(",")[4];
+			String arr[] = ques.split("=");
+			String qdata = arr[0];
+			String options[] = arr[1].split(",");
+			String option1 = options[0];
+			String option2 = options[1];
+			String option3 = options[2];
+			String option4 = options[3];
+			String answer = options[4];
 			Question question = new Question(qdata, option1, option2, option3, option4, answer);
 			quiz.getQuestions()[i] = question;
 		}

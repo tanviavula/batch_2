@@ -819,6 +819,19 @@ Reference to Primitive  - un-boxing
 equals() => Compares the content of the object
 
 
+Abstract:
+
+abstract: keyword
+
+			- class
+			- method
+			
+Abstract class:
+
+	- class with zero or more abstract methods
+	- Object can't be created
+	- Reference variable can be created
+	
 
 
 

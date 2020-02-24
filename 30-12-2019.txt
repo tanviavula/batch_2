@@ -827,11 +827,66 @@ abstract: keyword
 			- method
 			
 Abstract class:
-
+    abstract
 	- class with zero or more abstract methods
 	- Object can't be created
 	- Reference variable can be created
-	
+
+Interface:
+	It is contract between two parties, which contains:
+    - Java 8 
+     - Contains default methods and static method
+     - Abstract methods
+     - Only final variable 
+     
+Class can implement any number interfaces
+Interface can extends any number interfaces
+
+abstract class Vs Interface
+
+- Functional 
+- Marker Interface
+
+
+What is Functional Interface:
+
+	If interface has only one abstract method, then it is called functional interface.
+
+Marker Interface:
+    if an interface without any method and variable is called marker interface or tagging interface
+
+1. What is immutable object ?
+2. How do you create your object as immutable
+3. Why do you need private constructor ?
+4. What is singleton class how do you create single ton class?
+
+
+Exceptions:
+
+
+Collections:
+    Set
+    List
+    Map
+    
+    Lambdas
+    Streams
+    
+Annotations
+
+Reflection
+
+Thread
+
+JDBC
+
+
+
+
+     
+
+     
+     
 
 
 

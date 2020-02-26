@@ -855,14 +855,14 @@ What is Functional Interface:
 Marker Interface:
     if an interface without any method and variable is called marker interface or tagging interface
 
-1. What is immutable object ?
-2. How do you create your object as immutable
-3. Why do you need private constructor ?
-4. What is singleton class how do you create single ton class?
-
-
 Exceptions:
-
+	
+		Exception
+		Error
+		Bug
+		
+	
+	
 
 Collections:
     Set
@@ -881,9 +881,54 @@ Thread
 JDBC
 
 
+Immutable Object:
 
+  Once object is created the content of the object can't be modified.
+  
+  String Immutable
+  
+   
 
      
+
+1. What is immutable object ?
+2. How do you create your object as immutable
+3. Why do you need private constructor ?
+4. What is singleton class how do you create singleton class?
+
+
+5. Interface Vs Abstract class
+
+6. Can interface extend multiple interfaces ?
+7. What is the functional interface?
+8. Interface 
+          Country
+             String getCurrrency()
+          
+   Impletement Inteface:
+   		  USA
+   		  UK
+   		  India
+   		  
+   Create class CurrencyContainer: 
+   		  private CurrencyContainer()
+   		  getCournty(String country)
+   		 
+   Main:
+   
+   		  obj = getCurrency("IND");
+   		   		sop(obj.getCurrency());  "Rupee" , "Dolar" , "Pound"
+   		   		
+9. Constructor vs Method?
+10. Static block vs IIB ?
+11. Overloading Vs Overriding?
+12.
+	
+	void isSubset(int bigarr[],int smallArr[]){
+	}
+	wheather smallArr is subset of bigarr or not, if yes print "Yes" otherwise "No"
+ 
+
 
      
      

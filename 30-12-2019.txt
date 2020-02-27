@@ -861,7 +861,22 @@ Exceptions:
 		Error
 		Bug
 		
-	
+											Object
+											
+											Throwable
+											
+									Error              Exception
+													
+											     IOExcetion			RuntimeException
+											                            
+											                            NumberFormatExcetion
+											                            NullPointerException
+	Un-checked:
+		The classes which extends RuntimeException class is called un-checked exception, these exception occurs during runtime
+	Checked: 
+		The classes which extends Exception class is called checked exception, these exception are know to the compiler, so developer
+		needs handle or should throw to heighest stack caller by using throws keyword
+		
 	
 
 Collections:
@@ -898,9 +913,12 @@ Immutable Object:
 
 
 5. Interface Vs Abstract class
+  
 
 6. Can interface extend multiple interfaces ?
+	
 7. What is the functional interface?
+	
 8. Interface 
           Country
              String getCurrrency()
@@ -920,16 +938,53 @@ Immutable Object:
    		   		sop(obj.getCurrency());  "Rupee" , "Dolar" , "Pound"
    		   		
 9. Constructor vs Method?
+   Constructor:
+   	Special method, the job of the constructor is to initialize instance variable at the time creating the object.
+   	Rules:
+   		Constructor name must be same as class name
+   		It shouldn't contain any return type
+   		Access modifiers can't used ( static , native )
+   		Is called by JVM at the creating object.
+   		There is not inheritence 
+   		
+   	Method:
+   		
+   	
 10. Static block vs IIB ?
+    
+    
+    
+    
 11. Overloading Vs Overriding?
+
+class A{
+	void m1(){
+		System.out.println("A"):
+	}
+}
+class B extends A{
+	void m1(){
+		System.out.println("B");
+	}
+	void m1(int a){
+	
+	}
+}
+	
 12.
 	
-	void isSubset(int bigarr[],int smallArr[]){
+	boolean isSubset(int bigarr[],int smallArr[]){
 	}
 	wheather smallArr is subset of bigarr or not, if yes print "Yes" otherwise "No"
  
 
-
+13. What is inheritance ? does java supports multiple inheritance?
+14. What is covarient type?
+15. What is typecasting? What is auto boxing and unboxing?
+16. 
+	Write program to count number of palindromes in the given string:
+	
+	"123, 321, 12321,abc, abcbc, lamnmnl,3445 ,456, 678"
      
      
 

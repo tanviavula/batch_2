@@ -979,7 +979,18 @@ class B extends A{
  
 
 13. What is inheritance ? does java supports multiple inheritance?
+
 14. What is covarient type?
+
+	Super class 
+	Subclass 
+	
+	Object m1(){
+	}
+	
+	String m1(){
+	}
+
 15. What is typecasting? What is auto boxing and unboxing?
 16. 
 	Write program to count number of palindromes in the given string:
@@ -987,8 +998,32 @@ class B extends A{
 	"123, 321, 12321,abc, abcbc, lamnmnl,3445 ,456, 678"
      
      
+17. What are the Java features?
+ 
+18. JDK, JVM, JRE
 
+19. What are different distribution files in Java 
 
+    jar, war, ear
+    
+20.
+
+	int biggest(int a[]);
+	int indexOf(int a[],int key) // What index the element is present -1
+	int occurance(int a[], int key) // 
+	int[] sort(int a[],String order)// Desc/ Aesc
+	
+21. Explain the OOP's concepts?
+22. How do you make your class as singleton?
+23. What is difference between this, super, this() vs super()
+24.
+    String getLastTwoDigtsOfArraysSum(int arr[]){
+    
+    		90 + 1110 + 134 => 65678  // 78
+    						=> 12    // 12
+    						=> 100   // 00 
+    
+    }
 
 
 

@@ -1,6 +1,5 @@
 package com.nubes.cj.basics.day39;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 class Store {

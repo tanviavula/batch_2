@@ -1,16 +1,25 @@
 package com.nubes.cj.basics.day40;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Iterator;
 import java.util.List;
 import java.util.ListIterator;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
+
+
 public class ListExample {
 	public static void main(String[] args) {
 		List<String> blist = Stream.of("Rajesh", "Manonj", "Charan", "Govind").collect(Collectors.toList());
 		List<String> glist = Stream.of("Rani","Swathi","Tanvi","Dhatri","Aruna").collect(Collectors.toList());
+		
+		System.out.println("Before sort:"+blist);
+		Collections.sort(blist);
+		System.out.println("After sort:"+blist);
+		
+		
 		
 		List<String> allPlayers = new ArrayList<String>();
 		allPlayers.addAll(blist);

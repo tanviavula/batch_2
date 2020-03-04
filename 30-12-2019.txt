@@ -895,8 +895,8 @@ Collections:
 	Integer i = 100;
 	int j = i;
 	
-	Comparable
-	Comparator
+	Comparable -> compareTo single argument => used libarary classes. you sort only single order
+	Comparator -> compare two argument => Third party classes, you can have multiple sorting order
 	
 	
     Set

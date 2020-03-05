@@ -94,11 +94,9 @@ public class StockService {
 	// Desc // Aesc
 	public List<Stock> inSortByVolume(String order) {
 		if (order.equalsIgnoreCase("ASC")) {
-			Collections.sort(stockList, new StockVolumeAesc());
-
+			stockList.sort(Comparator.comparing(Stock::getVolume));
 		} else {
-			Collections.sort(stockList, new StockVolumeDesc());
-
+			stockList.sort(Comparator.comparing(Stock::getVolume).reversed());
 		}
 		return stockList;
 	}
